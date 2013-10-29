@@ -1,0 +1,70 @@
+/****************************************************
+* Student Name: Choong Teik Tan                     *
+* Student Number: 568701                            *
+* Student Email: choongt@student.unimelb.edu.au     *
+* File: proj1-style.css (SWEN90002 Project 1)       *
+****************************************************/
+
+#outline { position: absolute; top: 20px; left: 20px; right: 20px; bottom: 20px; border: solid 1px #999; border-radius: 25px; overflow: auto; }
+#gradient_top { position: inherit; height: 50%; width: 100%; border:0; z-index:-1; top: 0; }
+#gradient_bottom { position: inherit; height: 50%; width: 100%; border:0; z-index:-1; bottom: 0; }
+#header { position: absolute; height: 10%; left: 0.5%; right: 0.5%; top: 1px; visibility: visible; font-size: 100%; overflow: hidden; border: 0px solid red;}
+
+#content { position: absolute; top: 15%; left: 20px; right: 20px; bottom: 20px; font:16px/26px Georgia, Garamond, Serif; border: 0px solid blue;}
+#c_body { position: absolute; top: 5px; bottom: 5px; left:20%; right: 20%; visibility: visible; overflow: auto; border: 0px solid blueviolet;}
+#c_form { position: absolute; left: 5px; right:5px; height: 70%;  margin-top: 12%; visibility: visible; overflow: auto; border: 1px solid #999; background:#EEE; }
+
+#wel {position: absolute; top: 1px; height: 10%; left: 5px; right: 5px; border: 0px solid blue;}
+#instruct {position: absolute; top: 1%; height: 20%; left: 5px; right: 5px; overflow: auto; border: 0px solid yellow; }
+
+lable { margin-right: 0px;}
+#form { position: absolute; text-align: left; top: 35%; bottom:10%; left: 20%; right: 20%; background:#EEE; border: 1px dashed #999;}
+p { color: #666; font-size: 14px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: normal; top: 1px; line-height: 1.5;}
+h1 { color: #778fbd; font-size: 20px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: 500; line-height: 32px; margin-top: 4px; }
+h2 { color: #808080; font-size: 30px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; text-align: center; margin: 0.83em 0 0; }
+h3 { color: #666; font-size: 1.7em; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; text-align: center; letter-spacing: -1px; width: auto; margin-top:5px; }
+h4 { font-weight: bold; text-align: center; margin: 1.33em 0; }
+a { color: #666; text-decoration: underline; }
+
+#sub { position: inherit; left: 5px; right: 5px;  top: 10px; border: 0px solid blue;}
+#sub_2 { position: inherit; left: 5px; right: 5px; top: 50px; height: 30px; border: 0px solid blue;}
+#sub2 { position: inherit; left: 5px; right: 5px; top: 40px; height: 30px; text-align: center; overflow: hidden; border: 0px solid blue;}
+#sub3 { position: inherit; left: 5px; right: 5px; top: 75px; border: 0px solid red;}
+#sub4 { position: inherit; left: 5px; right: 5px; top: 105px; border: 0px solid blue;}
+#sub4_2 { position: inherit; left: 5px; right: 5px; top: 135px; border: 0px solid blue; }
+#sub4_2_1 { position: absolute; right: 0;}
+#sub4_3 { position: inherit; left: 5px; right: 5px; top: 155px; border: 0px solid blue; }
+#sub4_3_1 { position: absolute; right: 0;}
+#sub5 { position: inherit; left: 5px; right: 5px; top: 175px; border: 0px solid gold;}
+#sub_bottom { position: absolute; left: 5px; right: 5px; bottom: 5%; text-align: center; border: 0px solid blue; }
+
+#confirm {display:none; background:#FFF; position: fixed; top: 20%; left: 50%; width: 40%; height: 10%;}
+.bStyle {width:70px;}
+
+.current { background-color: #D2E0E6; }
+
+.emailStyle { /*position: inherit; float: left; font-size: 14px; width: 99%;*/
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.rotated{
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+}
+
+.roundedCorners {
+	padding: 0;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+div.growlUI { background: url(../img/check.png) no-repeat 10px 10px }
+div.growlUI h4, div.growlUI h1 {
+    color: white; padding: 5px 5px 5px 75px; text-align: left
+}
+
